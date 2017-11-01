@@ -1,0 +1,13 @@
+<h1>Car Status</h1>
+
+<h2>This car is a: <%= @car.full_car %> </h2>
+<h2>Your Speed is: <%= @car.speed %> </h2>
+<div id="forms">
+<form action="accelerate" method="get">
+    <input type="submit" name="speed" value="FASTER!" />
+</form>
+
+<form action="accelerate" method="get">
+     <input type="submit" name="brake" value="WHOA THERE NELLY, SLOW DOWN" />
+</form>
+</div>

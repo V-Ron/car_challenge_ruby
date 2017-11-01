@@ -1,0 +1,8 @@
+<h1>Welcome to the Car Simulator!</h1>
+
+<%= flash[:alert] %>
+<form  action="index" method="get">
+    <input type="text" name = "make" placeholder="Enter Make"/>
+    <input type="Number" name = "model_year" min= "1900" max = "2020" placeholder="Enter Model Year"/>
+    <input type="submit" value="Submit" />
+</form>
